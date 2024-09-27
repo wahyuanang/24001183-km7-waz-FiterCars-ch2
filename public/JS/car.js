@@ -41,8 +41,8 @@ class Car {
 
   render() {
     return `
-     <div class="card px-2 py-4">
-            <img src="${this.image}" class="card-img-top mt-4">
+     <div class="card px-2 py-4 w-auto col-lg-2">
+            <img src="${this.image}" class="card-img-top mt-4 w-auto">
             <div class="card-body">
                 <h5 class="card-title fs-6">${this.manufacture}/${this.model}</h5>
                 <h5 class="card-title fs-5 fw-bold">Rp ${this.rentPerDay} / hari</h5>
