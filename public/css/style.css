@@ -157,7 +157,10 @@ html {
     display: block;
     width: 100px;
   }
-}
+
+  .cars {
+    
+  }
 
 /* tablet view*/
 @media (min-width: 768px) {

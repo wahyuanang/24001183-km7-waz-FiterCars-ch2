@@ -5,39 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge 1 binar - Wahyu Anang Zulfikri</title>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg container pt-4">
-        <div class="container-fluid">
-            <div>
-                <img src="images/Rectangle.svg" alt="">
-            </div>
-            <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation" id="openSidebar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav d-flex gap-4 fw-medium d-none d-lg-flex">
-                        <a class="nav-link" href="#OurServices">Our Services</a>
-                        <a class="nav-link" href="#WhyUs">Why Us</a>
-                        <a class="nav-link" href="#Testimonial">Testimonial</a>
-                        <a class="nav-link" href="#Faq">FAQ</a>
-                        <button type="button"
-                            class="btn btn-color border-2 p-2 px-3 rounded-2 fw-semibold">Register</button>
+    <section style="background-color: #D2E0FB;">
+        <nav class="navbar navbar-expand-lg container pt-4">
+            <div class="container-fluid">
+                <div>
+                    <img src="images/Rectangle.svg" alt="">
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation" id="openSidebar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav d-flex gap-4 fw-medium d-none d-lg-flex">
+                            <a class="nav-link" href="#OurServices">Our Services</a>
+                            <a class="nav-link" href="#WhyUs">Why Us</a>
+                            <a class="nav-link" href="#Testimonial">Testimonial</a>
+                            <a class="nav-link" href="#Faq">FAQ</a>
+                            <button type="button"
+                                class="btn btn-color border-2 p-2 px-3 rounded-2 fw-semibold">Register</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
 
     <!-- Sidebar -->
-    <div class="sidebar bg-light" id="sidebar">
+    <div class="sidebar bg-light" id="sidebar" style="background-color: #D2E0FB;">
         <div class="d-flex justify-content-between p-3">
             <span class="fw-bold pt-2 fs-5">BCR</span>
             <button class="btn btn-light" id="closeSidebar"><svg xmlns="http://www.w3.org/2000/svg" width="32"
@@ -58,17 +60,20 @@
     </div>
 
     <!-- Hero section start -->
-    <section class="container py-md-5 py-5">
-        <div class="row">
-            <div class="col-12 col-md-6 order-1 order-md-1">
-                <h1 class="fw-bold" style="font-size: 36px;">Sewa & Rental Mobil Terbaik di kawasan Yogyakarta</h1>
-                <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau.
-                    Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-                <button type="button" class="btn btn-color border-2 p-2 px-3 rounded-2 fw-semibold">Mulai
-                    Sewa Mobil</button>
-            </div>
-            <div class="col-12 col-md-6 order-2 order-md-2 mt-4 mt-md-0">
-                <img src="images/img_car.png" class="img-fluid" alt="image car hero section">
+    <section style="background-color: #D2E0FB;">
+        <div class="container">
+            <div class="row py-md-5 py-5">
+                <div class="col-12 col-md-6 order-1 order-md-1">
+                    <h1 class="fw-bold" style="font-size: 36px;">Sewa & Rental Mobil Terbaik di kawasan Yogyakarta</h1>
+                    <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga
+                        terjangkau.
+                        Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+                    <button type="button" class="btn btn-color border-2 p-2 px-3 rounded-2 fw-semibold">Mulai
+                        Sewa Mobil</button>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-2 mt-4 mt-md-0">
+                    <img src="images/img_car.png" class="img-fluid" alt="image car hero section">
+                </div>
             </div>
         </div>
     </section>
@@ -125,8 +130,8 @@
 
     <section class="cars">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-11 ">
+            <div class="row justify-content-center mx-lg-auto px-4 gap-4">
+                <div class="col-lg-12">
                     <div class="row" id="cars-container">
                     </div>
                 </div>
@@ -168,7 +173,11 @@
         </div>
     </footer>
 
-    <script src="JS/index.js"></script>
+    <script src="JS/main.js"></script>
+    <script type="text/javascript" src="JS/binar.js"></script>
+    <script type="text/javascript" src="JS/app.example.js"></script>
+    <script type="text/javascript" src="JS/car.example.js"></script>
+    <script type="text/javascript" src="JS/main.example.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
